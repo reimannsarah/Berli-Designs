@@ -16,6 +16,13 @@ h1 {
 h2 {
     font-size: 20px;
     text-align: center;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .column {
@@ -23,10 +30,8 @@ h2 {
     width: 23vw;
     text-align: center;
     background: #E1F0C4;
-    margin: 8px;
     padding: 12px;
     border-radius: 8px;
-
 }
 
 img {
@@ -47,12 +52,14 @@ img {
     background-color: #DF9A57;
     padding: 0 8px;
     border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu {
     display: inline-block;
     padding: 8px;
-    margin-bottom: 15px;
 }
 
 .reviews {
