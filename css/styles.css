@@ -5,6 +5,7 @@ body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     margin: 10px;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h2 {
     margin: 8px;
     padding: 12px;
     border-radius: 8px;
+
 }
 
 img {
@@ -41,25 +43,18 @@ img {
     text-align: left;
 }
 
-.side-nav {
-    float: right;
+.top-nav {
     background-color: #DF9A57;
-    height: 50vh;
     padding: 0 8px;
     border-radius: 8px;
 }
 
-ul {
-    list-style-type: none;
-    font-size: 20px;
-    width: 10vw;
-    padding: 0;
+.menu {
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 15px;
 }
 
 .reviews {
     margin-top: 70vh;
-}
-
-li {
-    padding: 30px 0;
 }
