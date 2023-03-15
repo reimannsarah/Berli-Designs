@@ -63,5 +63,7 @@ img {
 }
 
 .reviews {
-    margin-top: 70vh;
+    margin: auto;
+    display: block;
+    width: 50%;
 }
